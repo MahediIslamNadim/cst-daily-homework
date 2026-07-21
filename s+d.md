@@ -283,4 +283,3 @@
 - ✅ Future-proof (with AI adaptation)
 ---
 
-তোমার ফ্রেন্ড কোন niche-এ interest আছে? E-commerce, Fintech, EdTech, Beauty? 🎯
