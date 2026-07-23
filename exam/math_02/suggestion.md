@@ -1,147 +1,108 @@
 # 📘 Math-2 Suggestion (Diploma)
 
-> **পরীক্ষার প্রস্তুতির জন্য গুরুত্বপূর্ণ প্রশ্নসমূহ**  
-> প্রতিটি প্রশ্নের সমাধান পরীক্ষার উপযোগী, সহজ ভাষায় এবং Step-by-Step দেওয়া হবে।
+## পরীক্ষার প্রস্তুতির জন্য গুরুত্বপূর্ণ প্রশ্নসমূহ
+
+প্রতিটি প্রশ্নের সমাধান পরীক্ষার উপযোগী, সহজ ভাষায় এবং Step-by-Step দেওয়া হবে।
 
 ---
 
-# প্রশ্নসমূহ
+## প্রশ্নসমূহ
 
-## ১. আংশিক ভগ্নাংশ (Partial Fraction)
+### ১. আংশিক ভগ্নাংশ (Partial Fraction)
 
-নিম্নের ভগ্নাংশটিকে **আংশিক ভগ্নাংশে বিশ্লেষণ** করঃ
+নিম্নের ভগ্নাংশটিকে আংশিক ভগ্নাংশে বিশ্লেষণ কর।
 
-\[
-\frac{x^2-x+1}{(x-1)(x^2+1)}
-\]
+**(x² − x + 1) / [(x − 1)(x² + 1)]**
 
 ---
 
-## ২. অসীম শ্রেণির যোগফল (Infinite Series)
+### ২. অসীম শ্রেণির যোগফল (Infinite Series)
 
-নিম্নের শ্রেণির যোগফল নির্ণয় করঃ
+নিম্নের শ্রেণির যোগফল নির্ণয় কর।
 
-\[
-1+\frac{2}{1^2}+\frac{3}{2^2}+\frac{4}{3^2}+\cdots
-\]
+**1 + 2/1² + 3/2² + 4/3² + ...**
 
 ---
 
-## ৩. দ্বিপদী উপপাদ্য (Binomial Theorem)
+### ৩. দ্বিপদী উপপাদ্য (Binomial Theorem)
 
-নিম্নের রাশির **\(x\)-স্বাধীন (Constant) পদ** নির্ণয় করঃ
+নিম্নের রাশির x-স্বাধীন (Constant) পদ নির্ণয় কর।
 
-\[
-\left(2x-\frac{1}{3x^4}\right)^{12}
-\]
+**(2x − 1/(3x⁴))¹²**
 
 ---
 
-## ৪. Binomial Expansion
+### ৪. Binomial Expansion
 
-নিম্নের বিস্তৃতিতে **\((r+1)\)-তম পদের সহগ** নির্ণয় করঃ
+নিম্নের বিস্তৃতিতে (r+1)-তম পদের সহগ নির্ণয় কর।
 
-\[
-(1-2x)^{-\frac12}
-\]
+**(1 − 2x)^(-1/2)**
 
 ---
 
-## ৫. Maclaurin Series
+### ৫. Maclaurin Series
 
-নিম্নের ফাংশনের **Maclaurin Series** নির্ণয় করঃ
-
-\[
-\log_e x
-\]
+logₑx এর Maclaurin Series নির্ণয় কর।
 
 ---
 
-## ৬. Differentiation (অন্তরক)
+### ৬. Differentiation (অন্তরক)
 
-### (i)
+#### (i)
 
-\[
-y=\sin^{-1}(\log \sec x)
-\]
+**y = sin⁻¹(log sec x)**
 
 এর অন্তরক নির্ণয় কর।
 
-### (ii)
+#### (ii)
 
-\[
-y=\tan^{-1}\left(\frac{\sqrt{1+x}-1}{x}\right)
-\]
+**y = tan⁻¹((√(1+x) − 1)/x)**
 
 এর অন্তরক নির্ণয় কর।
 
 ---
 
-## ৭. Integration (সমাকলন)
+### ৭. Integration (সমাকলন)
 
-### (i)
+#### (i)
 
-\[
-\int e^{\tan^{-1}x}\frac{1}{1+x^2}\,dx
-\]
+**∫ e^(tan⁻¹x) / (1 + x²) dx**
 
 এর মান নির্ণয় কর।
 
-### (ii)
+#### (ii)
 
-\[
-\int_0^1 x^3\sqrt{1+3x^4}\,dx
-\]
+**∫₀¹ x³√(1 + 3x⁴) dx**
 
 এর মান নির্ণয় কর।
 
 ---
 
-## ৮. Partial Differentiation
+### ৮. Partial Differentiation
 
 যদি,
 
-\[
-u=\sin^{-1}\left(\frac{x}{y}\right)+\tan^{-1}\left(\frac{y}{x}\right)
-\]
+**u = sin⁻¹(x/y) + tan⁻¹(y/x)**
 
 হয়, তবে প্রমাণ কর যে,
 
-\[
-x\frac{\partial u}{\partial x}
-+
-y\frac{\partial u}{\partial y}
-=
-0
-\]
+**x(∂u/∂x) + y(∂u/∂y) = 0**
 
 ---
 
-## ৯. Differential Equation Proof
+### ৯. Differential Equation
 
 যদি,
 
-\[
-y=\sin(m\sin^{-1}x)
-\]
+**y = sin(m sin⁻¹x)**
 
 হয়, তবে প্রমাণ কর যে,
 
-\[
-(1-x^2)\frac{d^2y}{dx^2}
--
-x\frac{dy}{dx}
-+
-m^2y
-=
-0
-\]
+**(1 − x²)(d²y/dx²) − x(dy/dx) + m²y = 0**
 
 ---
 
-# 📖 Solution Plan
-
-আমরা প্রতিটি প্রশ্ন **One by One** সমাধান করব।
+# Solution Plan
 
 - ✅ Question 1 → Partial Fraction
 - ⏳ Question 2 → Infinite Series
@@ -153,6 +114,4 @@ m^2y
 - ⏳ Question 8 → Partial Differentiation
 - ⏳ Question 9 → Differential Equation
 
----
-
-**Next:** Question–1 (Partial Fraction) Solution.
+**Next:** Question-1 Solution.
