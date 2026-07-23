@@ -102,16 +102,4 @@ logₑx এর Maclaurin Series নির্ণয় কর।
 
 ---
 
-# Solution Plan
-
-- ✅ Question 1 → Partial Fraction
-- ⏳ Question 2 → Infinite Series
-- ⏳ Question 3 → Constant Term
-- ⏳ Question 4 → Binomial Expansion
-- ⏳ Question 5 → Maclaurin Series
-- ⏳ Question 6 → Differentiation
-- ⏳ Question 7 → Integration
-- ⏳ Question 8 → Partial Differentiation
-- ⏳ Question 9 → Differential Equation
-
 **Next:** Question-1 Solution.
