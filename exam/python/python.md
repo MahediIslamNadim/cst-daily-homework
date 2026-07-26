@@ -45,19 +45,29 @@ a = float(input("a এর মান দিন: "))
 b = float(input("b এর মান দিন: "))
 c = float(input("c এর মান দিন: "))
 
-discriminant = b**2 - 4*a*c
-
-if discriminant > 0:
-    root1 = (-b + math.sqrt(discriminant)) / (2 * a)
-    root2 = (-b - math.sqrt(discriminant)) / (2 * a)
-    print(f"দুটি বাস্তব মূল: x1 = {root1:.2f}, x2 = {root2:.2f}")
-elif discriminant == 0:
-    root = -b / (2 * a)
-    print(f"একটি সমান মূল: x = {root:.2f}")
+# Fix 1: a=0 হলে দ্বিঘাত সমীকরণ নয়
+if a == 0:
+    if b == 0:
+        print("এটি কোনো সমীকরণ নয়।")
+    else:
+        x = -c / b
+        print(f"এটি দ্বিঘাত নয়, রৈখিক সমীকরণ। মূল: x = {x:.2f}")
 else:
-    real_part = -b / (2 * a)
-    imag_part = math.sqrt(-discriminant) / (2 * a)
-    print(f"কাল্পনিক মূল: x1 = {real_part:.2f}+{imag_part:.2f}i, x2 = {real_part:.2f}-{imag_part:.2f}i")
+    discriminant = b**2 - 4*a*c
+
+    # Fix 3: floating point safe comparison
+    if abs(discriminant) < 1e-10:
+        root = -b / (2 * a)
+        print(f"একটি সমান মূল: x = {root:.2f}")
+    elif discriminant > 0:
+        root1 = (-b + math.sqrt(discriminant)) / (2 * a)
+        root2 = (-b - math.sqrt(discriminant)) / (2 * a)
+        print(f"দুটি বাস্তব মূল: x1 = {root1:.2f}, x2 = {root2:.2f}")
+    else:
+        real_part = -b / (2 * a)
+        # Fix 2: abs(a) দিয়ে imag_part সবসময় positive
+        imag_part = math.sqrt(-discriminant) / (2 * abs(a))
+        print(f"কাল্পনিক মূল: x1 = {real_part:.2f}+{imag_part:.2f}i, x2 = {real_part:.2f}-{imag_part:.2f}i")
 ```
 
 ---
